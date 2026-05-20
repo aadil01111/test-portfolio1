@@ -11,7 +11,7 @@ import Timeline from './sections/Timeline/Timeline'
 import Contact from './sections/Contact/Contact'
 import Footer from './sections/Footer/Footer'
 
-function App() {
+function App() 
   useEffect(() => {
     const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
 
